@@ -16,7 +16,7 @@ All you need to do is to wrap LaTeX commands with dollar signs. For example,
 `$x_i$` gives x subscript i. And `$\sum_i x_i$` gives a summation of `x_i`.
 
 We have created a Jupyter Notebook with lots of examples (from very basic to more
-complex ones) for you to play with. To open it, click [here](../3_latex/latex.ipynb).
+complex ones) for you to play with. To open it, click [here](https://katex.org/).
 
 ## 🧩 Puzzle Time 🧩
 How about taking a break to solve a puzzle? This time we suggest the [Darts 
