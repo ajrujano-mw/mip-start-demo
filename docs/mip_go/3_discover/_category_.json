@@ -1,0 +1,8 @@
+{
+  "label": "Discover",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "How can you understand the business context."
+  }
+}
