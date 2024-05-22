@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/blog</id>
+    <id>https://github.com/mip-start-demo/blog</id>
     <title>Mip Start Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/blog"/>
+    <link rel="alternate" href="https://github.com/mip-start-demo/blog"/>
     <subtitle>Mip Start Blog</subtitle>
-    <icon>https://github.com/img/favicon.ico</icon>
+    <icon>https://github.com/mip-start-demo/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://github.com/blog/welcome</id>
-        <link href="https://github.com/blog/welcome"/>
+        <id>https://github.com/mip-start-demo/blog/welcome</id>
+        <link href="https://github.com/mip-start-demo/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
         <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
@@ -22,7 +22,7 @@
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://github.com/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://github.com/mip-start-demo/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
         <author>
@@ -39,8 +39,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://github.com/blog/mdx-blog-post</id>
-        <link href="https://github.com/blog/mdx-blog-post"/>
+        <id>https://github.com/mip-start-demo/blog/mdx-blog-post</id>
+        <link href="https://github.com/mip-start-demo/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
@@ -53,8 +53,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Derivation of the simplex algorithm]]></title>
-        <id>https://github.com/blog/the-simplex-algorithm</id>
-        <link href="https://github.com/blog/the-simplex-algorithm"/>
+        <id>https://github.com/mip-start-demo/blog/the-simplex-algorithm</id>
+        <link href="https://github.com/mip-start-demo/blog/the-simplex-algorithm"/>
         <updated>2019-06-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Consider the following linear program (LP) in standard form:]]></summary>
         <content type="html"><![CDATA[<p>Consider the following linear program (LP) in standard form:</p>
@@ -134,8 +134,8 @@ c^T_B x_B + c^T_N x_N &amp;= c^T_B (A_B^{-1}b - A_B^{-1}A_N x_N) + c^T_N x_N\\
     </entry>
     <entry>
         <title type="html"><![CDATA[The diet problem]]></title>
-        <id>https://github.com/blog/the-diet-problem</id>
-        <link href="https://github.com/blog/the-diet-problem"/>
+        <id>https://github.com/mip-start-demo/blog/the-diet-problem</id>
+        <link href="https://github.com/mip-start-demo/blog/the-diet-problem"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Diet Problem, also known as Stigler diet, is a classic]]></summary>
         <content type="html"><![CDATA[<p>The <em>Diet Problem</em>, also known as <em>Stigler diet</em>, is a classic
@@ -147,7 +147,7 @@ of linear programming. You can find much more details on Wikipedia:
 make a selection of food and the respective quantity to compose
 the least expensive diet that meets min and max recommended
 intake of nutrients.</em></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="input-schema">Input schema<a href="https://github.com/blog/the-diet-problem#input-schema" class="hash-link" aria-label="Direct link to Input schema" title="Direct link to Input schema">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="input-schema">Input schema<a href="https://github.com/mip-start-demo/blog/the-diet-problem#input-schema" class="hash-link" aria-label="Direct link to Input schema" title="Direct link to Input schema">​</a></h2>
 <p>We can then organize the input data for the Diet Problem in three
 tables, <code>foods</code>, <code>nutrients</code>, and <code>foods_nutrients</code>, where the
 first two are master tables.</p>
@@ -165,7 +165,7 @@ with three foods and two nutrients only:</p>
 <li><code>foods_nutrients</code></li>
 </ul>
 <table><thead><tr><th style="text-align:center">Food ID</th><th style="text-align:center">Nutrient ID</th><th style="text-align:center">Quantity</th></tr></thead><tbody><tr><td style="text-align:center">f1</td><td style="text-align:center">n1</td><td style="text-align:center">0.69</td></tr><tr><td style="text-align:center">f2</td><td style="text-align:center">n1</td><td style="text-align:center">0.28</td></tr><tr><td style="text-align:center">f3</td><td style="text-align:center">n1</td><td style="text-align:center">0.3</td></tr><tr><td style="text-align:center">f1</td><td style="text-align:center">n2</td><td style="text-align:center">0.181</td></tr><tr><td style="text-align:center">f2</td><td style="text-align:center">n2</td><td style="text-align:center">0.0658</td></tr><tr><td style="text-align:center">f3</td><td style="text-align:center">n2</td><td style="text-align:center">0.0755</td></tr></tbody></table>
-<p><a href="https://github.com/program/mip_go/discover/welcome">development_instance</a></p>]]></content>
+<p><a href="https://github.com/mip-start-demo/program/mip_go/discover/welcome">development_instance</a></p>]]></content>
         <author>
             <name>Aster Santana</name>
             <uri>https://github.com/endiliey</uri>
@@ -175,8 +175,8 @@ with three foods and two nutrients only:</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Resourcefulness]]></title>
-        <id>https://github.com/blog/resourcefulness</id>
-        <link href="https://github.com/blog/resourcefulness"/>
+        <id>https://github.com/mip-start-demo/blog/resourcefulness</id>
+        <link href="https://github.com/mip-start-demo/blog/resourcefulness"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Resourcefulness is one of the most powerful word you]]></summary>
         <content type="html"><![CDATA[<p>Resourcefulness is one of the most powerful word you
