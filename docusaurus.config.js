@@ -76,14 +76,24 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Mip Start',
+        style: 'primary',
         logo: {
           alt: 'MipWise Logo',
           src: 'img/logo.svg',
@@ -103,17 +113,17 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mipwise/',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light', /* options: 'light', 'dark' IDK where it gets the colors*/
         links: [
           {
-            title: 'Docs',
+            title: 'The Program',
             items: [
               {
                 label: 'Mip Go',
@@ -130,16 +140,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/mipwise',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@mipwise',
               },
             ],
           },
@@ -148,16 +154,16 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://www.mipwise.com/blogs',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/mipwise/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MipWise, LTDA. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
