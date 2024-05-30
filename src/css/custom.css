@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* You can override the default Infima variables here. 
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,14 +17,76 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+*/
+:root {
+  --ifm-color-primary: #036b8b; /* this one is used in the nav bar, overriden below */
+  --ifm-color-primary-dark: #03607d;
+  --ifm-color-primary-darker: #035b76;
+  --ifm-color-primary-darkest: #024b61;
+  --ifm-color-primary-light: #037699;
+  --ifm-color-primary-lighter: #037ba0;
+  --ifm-color-primary-lightest: #048bb5;
+  /* the above color were calculated based on the color-primary*/
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* here we start writing the custom configurations located at the root*/
+  /* footer configurations */
+  --ifm-footer-background-color: #95c1ce;
+  --ifm-footer-link-color: #49565f;
+  --ifm-footer-title-color: #49565f;
+  /* hero configurations */
+  --ifm-hero-background-color: #e8ebf0;
+  --ifm-hero-text-color: #036b8b; 
+  /* configurations sidebar of docs */
+  --ifm-menu-color-active: #036b8b;
+  --ifm-menu-color-background-hover: #95c1ce;
+  --ifm-menu-color-background-active: #e8ebf0;
+
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #95c1ce;
+  --ifm-color-primary-dark: #7db3c3;
+  --ifm-color-primary-darker: #71acbd;
+  --ifm-color-primary-darkest: #4f95aa;
+  --ifm-color-primary-light: #adcfd9;
+  --ifm-color-primary-lighter: #b9d6df;
+  --ifm-color-primary-lightest: #deecf0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom CSS */
+
+/* change color of the links, this will make ALL links on the page to have this color */
+a {
+ color: #036b8b;
+}
+
+/* navbar configurations */
+
+.navbar--primary {
+  --ifm-navbar-background-color: #95c1ce; 
+  --ifm-navbar-link-color: #036b8b;
+}
+
+/* change color of the button secondary, the button is located in the hero of the landing page, but it apply the style to any other seconday button */
+.button--secondary {
+  --ifm-button-background-color: #036b8b;
+  --ifm-button-border-color: #036b8b;
+}
+
+.button.button--secondary {
+  color: white;
+}
+
+/* change color of button secondary when hover */
+.button--secondary:hover {
+  --ifm-button-background-color: #c5d6dd;
+  --ifm-button-border-color: #c5d6dd;
+}
+
+/* this is the small button at the top of each document that tells you where you are */
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  --ifm-breadcrumb-item-background-active: #e8ebf0;}
