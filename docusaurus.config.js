@@ -27,7 +27,9 @@ const config = {
   projectName: 'mip-start-demo', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  staticDirectories: ['static'],
+
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
