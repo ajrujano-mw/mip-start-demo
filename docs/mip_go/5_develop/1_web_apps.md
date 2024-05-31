@@ -75,7 +75,7 @@ Before you move ahead, we recommend that you write down your main takeaways
 from Aster's article, and any other thoughts you might have. It's for your 
 own future reference. You can use the *My notes* section below as we had 
 recommended in the
-[Next Steps](../../2_documentation/next_steps/README.md) section of 
+[Next Steps](../2_documentation/5_next_steps.md) section of 
 the Documentation module.
 
 📝 **Tip:** 
