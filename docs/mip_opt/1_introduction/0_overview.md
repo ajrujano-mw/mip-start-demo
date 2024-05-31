@@ -4,8 +4,7 @@ In this program, you will learn why *mathematical optimization*
 primary technology for doing prescriptive analytics, and how to use 
 it to solve prescriptive analytics problems across a variety of industries.
 
-Not sure what prescriptive analytics is about? Check out this blog post:
-https://www.mipwise.com/blogs/analytics-driven-decision-making
+Not sure what prescriptive analytics is about? Check out this [blog post][blog_post].
 
 But don't think that mathematical optimization is only for
 optimization tasks. In many cases, we just need to find a
@@ -37,3 +36,5 @@ total calories in the diet.
 ------------------------------------------------------------------------------
 
 In the next section you will learn about mathematical formulation.
+
+[blog_post]: https://www.mipwise.com/blogs/analytics-driven-decision-making

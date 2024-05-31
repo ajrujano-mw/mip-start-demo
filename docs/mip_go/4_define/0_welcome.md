@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 Welcome to the *Define* module, which comes from the second "D" of the 
-[D-Wise](../1_introduction/1_overview) framework.
+[D-Wise](../1_introduction/1_overview.md) framework.
 
 In the Discovery module, we discussed the importance of understanding the 
 problem and its context before moving on to solving it. So, by now, you should

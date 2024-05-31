@@ -138,7 +138,7 @@ Next, you will start implementing the schema of your application. And, as a
 bonus, you will be getting your solution protected against dirty data!
 
 [mip_go]: https://github.com/mipwise/mip_go
-[markdown]: ../2-documentation/1_markdown.md
+[markdown]: ../2_documentation/1_markdown.md
 [gitignore]: https://github.com/github/gitignore
 [choosealicense]: https://choosealicense.com/
 [the_zen_of_python]: https://www.python.org/dev/peps/pep-0020/

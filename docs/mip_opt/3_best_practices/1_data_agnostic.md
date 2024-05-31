@@ -47,8 +47,10 @@ multiple instances of the problem without having to modify the formulation
 or the optimization model at all. That is the target!
 
 To see some practical examples, have a look at the data agnostic formulation 
-of the TicTech and other problems in the respective Jupyter Notebooks
-located inside the [jupyter_notebooks](jupyter_notebooks) directory.
+of the TicTech and other problems such as (right click on the link, and then "Save link as")
+- [pastesian][pastesian_jupyter]
+- [soyking][soyking_jupyter]
+
 
 ## Implementation of the data agnostic formulation
 Below is an implementation of the data agnostic formulation of TicTech.
@@ -87,7 +89,7 @@ print(f'x = {x_sol}')
 ```
 
 For more examples, check out 
-[soyking_pro_pulp.py](../../../static/files/soyking_pro_pulp.py) and [pastesian_pro_pulp.py](../../../static/files/pastesian_pro_pulp.py).
+[soyking_pro_pulp.py](/files/soyking_pro_pulp.py) and [pastesian_pro_pulp.py](/files/pastesian_pro_pulp.py).
 
 ## Using IDs instead of business names
 You may have noticed that we used IDs instead of business names in the "pro"
@@ -101,6 +103,8 @@ In the case of time periods, like in the Pastesian problem, we not only use
 IDs as we also make sure they are contiguous integers starting from 1,
 because we typically use these assumptions as part of the modeling.
 
-[tictech]: /program/mip_opt/introduction/tictech_formulation
+[tictech]: ../1_introduction/2_tictech_formulation.md
 [soyking]: https://www.mipwise.com/use-cases/soyking
+[pastesian_jupyter]: /files/pastesian_pro.ipynb
+[soyking_jupyter]: /files/soyking_pro.ipynb
 

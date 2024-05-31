@@ -74,7 +74,7 @@ integer problem.
 In addition, the type of algorithms used to tackle CP is fundamentally 
 different from those used for solving MILP.
 
-[linear_expressions]: /blog/linear-expressions
+[linear_expressions]: /articles/linear-expressions
 
 ------------------------------------------------------------------------------
 
