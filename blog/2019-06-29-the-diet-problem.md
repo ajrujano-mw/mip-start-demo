@@ -1,7 +1,7 @@
 ---
 slug: the-diet-problem
 title: The diet problem
-authors: aster
+authors: []
 tags: [the diet problem, linear programming]
 ---
 

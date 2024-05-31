@@ -1,11 +1,7 @@
 ---
 slug: resourcefulness
 title: Resourcefulness
-authors:
-  name: Aster Santana
-  title: CEO MipWise
-  url: https://github.com/astersantana
-  image_url: https://github.com/wgao19.png
+authors: aster
 tags: [resourcefulness, philosophy]
 ---
 

@@ -54,10 +54,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          blogSidebarTitle: "All our articles",
+          routeBasePath: '/articles',
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -111,7 +111,7 @@ const config = {
             sidebarId: 'mipOptSidebar',
             label: 'Mip-Opt',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/articles', label: 'Articles', position: 'left' },
           {
             href: 'https://github.com/mipwise/',
             label: 'GitHub',

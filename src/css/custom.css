@@ -90,3 +90,10 @@ a {
 
 .breadcrumbs__item--active .breadcrumbs__link {
   --ifm-breadcrumb-item-background-active: #e8ebf0;}
+
+/* hide time for blog posts */
+
+.container_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Info-styles-module {
+    display: none;
+}
+
