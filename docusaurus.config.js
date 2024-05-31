@@ -127,11 +127,11 @@ const config = {
             items: [
               {
                 label: 'Mip Go',
-                to: '/program/intro',
+                to: '/program/intro_mip_go',
               },
               {
                 label: 'Mip Opt',
-                to: '/program/cli',
+                to: '/program/intro_mip_opt',
               },
 
             ],
@@ -153,12 +153,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Mip Wise Blog',
                 to: 'https://www.mipwise.com/blogs',
               },
               {
-                label: 'GitHub',
+                label: 'Mip Wise GitHub',
                 href: 'https://github.com/mipwise/',
+              },
+              {
+                label: 'Articles',
+                href: '/articles',
               },
             ],
           },
